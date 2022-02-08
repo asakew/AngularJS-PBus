@@ -10,6 +10,9 @@
   <!-- AngularJS -->
   <script src="res/angular.min.js"></script>
 <style>
+* {
+  box-sizing: border-box;
+}
 table, th , td {
   border: 1px solid grey;
   border-collapse: collapse;
@@ -37,6 +40,14 @@ button {
 input {
 margin-top: 17px
 }
+.autoPostion {
+  width: 50%;
+  float: left;
+}
+.autoPostion-2 {
+  width: 75%;
+  float: left;
+}
 </style>
 </head>
 
@@ -61,10 +72,35 @@ margin-top: 17px
       <td>{{x.outTime}}</td>
       <td>{{x.inTime}}</td>      
       <td>{{x.name}}</td>   
-      <td><input type="checkbox" ng-model="mySwitch" />
+      <td><input type="checkbox" ng-model="mySwitch" id="mySwitch" />
       </p></td>
     </tr>
   </table>
+
+<section class="autoPostion">
+  <h2>autoPostion</h2>
+  <div ng-init="num=['766','506','246', '232', '936', '005', '794', '407', '936', '009', '914 aylanib keladi', '494']">
+    <ul>
+      <li ng-repeat="x in num">
+      {{ x }}
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="autoPostion-2">
+  <h2>Tepaga ketadi mashrut: 82 lar bilan</h2>
+  <div ng-init="num2=['933','877','920', '921', '406', '012']">
+    <ul>
+      <li ng-repeat="x in num2">
+        {{ x }}
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+
 
 </div>
 
@@ -76,6 +112,7 @@ margin-top: 17px
     $scope.orderByMe = function(x) {
         $scope.myOrderBy = x;
       }
+    document.cookie =  document.querySelector('#mySwitch');
   });
 </script>
 

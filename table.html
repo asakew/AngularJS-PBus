@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>AngularJS</title>
+
+  <!-- AngularJS -->
+  <script src="res/angular.min.js"></script>
+<style>
+table, th , td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+table tr:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+
+table tr:nth-child(even) {
+  background-color: #ffffff;
+}
+.center  {
+  text-align: center
+}
+</style>
+</head>
+
+<body>
+<!-- AngularJS App Container -->
+<div ng-app="myApp" ng-controller="customersCtrl">
+
+  <table border="1" width="100%">
+    <tr>
+      <th>~</th>
+      <th ng-click="orderByMe('num')">Num, ID</th>
+      <th ng-click="orderByMe('time')">Soat</th>
+      <th ng-click="orderByMe('name')">Ism va Familiya</th> 
+    </tr>
+    <tr ng-repeat="x in names | orderBy:myOrderBy">
+      <td class="center">{{ $index + 1 }}</td> 
+      <td>{{x.num}} - {{x.mashrut}}</td>
+      <td class="center">{{x.workTime}}</td>
+      <td>{{x.name}}</td>      
+    </tr>
+  </table>
+
+</div>
+
+<script>
+  var app = angular.module('myApp', []);
+  app.controller('customersCtrl', function($scope, $http) {
+    $http.get("/json/pbus.json")
+      .then(function(response) { $scope.names = response.data.pbus; });
+    $scope.orderByMe = function(x) {
+        $scope.myOrderBy = x;
+      }
+  });
+</script>
+
+
+
+
+
+</body>
+</html>

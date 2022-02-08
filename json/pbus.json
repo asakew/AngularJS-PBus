@@ -1,0 +1,16 @@
+{
+  "pbus": [
+      {
+        "mashrut": "60",
+        "num": "380",
+        "workTime": "06:00",
+        "name": "Alimov Ali"
+      },
+      {
+        "mashrut": "60",
+        "num": "300",
+        "name": "Valimov Vaki",
+        "workTime": "07:00"
+      }      
+  ]
+}    

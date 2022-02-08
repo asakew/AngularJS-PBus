@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>AngularJS</title>
+
+  <!-- AngularJS -->
+  <script src="../res/angular.min.js"></script>
+
+</head>
+
+<body>
+<!-- AngularJS App Container -->
+<div ng-app="myApp" ng-controller="namesCtrl">
+
+
+<div ng-app="myApp" ng-controller="namesCtrl">
+
+  <table border="1" width="100%">
+    <tr>
+      <th ng-click="orderByMe('name')">ID, Num</th>
+      <th ng-click="orderByMe('country')">Soat</th>
+    </tr>
+    <tr ng-repeat="x in names | orderBy:myOrderBy">
+      <td>{{x.name}}</td>
+      <td>{{x.country}}</td>
+    </tr>
+  </table>
+
+
+
+  
+</div>
+  <!-- Project -->
+
+<script>
+angular.module('myApp', []).controller('namesCtrl', function($scope) {
+   $scope.names = [
+        {name:'Jani',country:'Norway'},
+        {name:'Carl',country:'Sweden'},
+        {name:'Margareth',country:'England'},
+        {name:'Hege',country:'Norway'},
+        {name:'Joe',country:'Denmark'},
+        {name:'Gustav',country:'Sweden'},
+        {name:'Birgit',country:'Denmark'},
+        {name:'Mary',country:'England'},
+        {name:'Kai',country:'Norway'}
+        ];
+   $scope.orderByMe = function(x) {
+       $scope.myOrderBy = x;
+    }
+});
+  </script>
+</body>
+</html>

@@ -34,6 +34,9 @@ button {
   font-size: 16px;
   font-weight: bold
 }
+input {
+margin-top: 17px
+}
 </style>
 </head>
 
@@ -43,19 +46,17 @@ button {
 
   <table width="100%">
     <tr>
-      <th>~</th>
-      <th ng-click="orderByMe('num')">Num, ID</th>
+      <th ng-click="orderByMe('mashrut')">Mashrut</th>   
+      <th ng-click="orderByMe('num')">Num</th>
       <th ng-click="orderByMe('outTime')">outTime</th>
-      <th ng-click="orderByMe('inTime')">inTime</th>      
+      <th ng-click="orderByMe('inTime')">inTime</th>  
       <th ng-click="orderByMe('name')">Ism va Familiya</th>
       <th>Status</th>
     </tr>
     <tr ng-repeat="x in names | orderBy:myOrderBy" class="center">
-      <td>{{ $index + 1 }}</td> 
+      <td>{{x.mashrut}}</td>
       <td>
-        <button ng-disabled="mySwitch">
-         {{x.num}} - {{x.mashrut}}
-        </button>
+        <button ng-disabled="mySwitch">{{x.num}}</button>
       </td>
       <td>{{x.outTime}}</td>
       <td>{{x.inTime}}</td>      

@@ -98,13 +98,13 @@ h3 {
       <th>Status</th>
     </tr>
     <tr ng-repeat="x in names | orderBy:myOrderBy" class="center">
-      <td>{{x.mashrut}}</td>
+      <td><button ng-disabled="mySwitch">{{x.mashrut}}</button></td>
       <td>
         <button ng-disabled="mySwitch">{{x.num}}</button>
       </td>
-      <td>{{x.outTime}}</td>
-      <td>{{x.inTime}}</td>      
-      <td>{{x.name}}</td>   
+      <td><button ng-disabled="mySwitch">{{x.outTime}}</button></td>
+      <td><button ng-disabled="mySwitch">{{x.inTime}}</button></td>      
+      <td><button ng-disabled="mySwitch">{{x.name}}</button></td>   
       <td><input type="checkbox" ng-model="mySwitch" id="mySwitch" />
       </p></td>
     </tr>

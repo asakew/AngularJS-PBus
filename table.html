@@ -11,12 +11,19 @@
   <script src="res/angular.min.js"></script>
 <style>
 * {
-  box-sizing: border-box;
+  box-sizing: border-box
 }
+
+body {
+  background-color: black;
+  color: white
+}
+
 table, th , td {
   border: 1px solid grey;
   border-collapse: collapse;
   padding: 5px;
+  color: black
 }
 
 table tr:nth-child(odd) {
@@ -40,14 +47,40 @@ button {
 input {
 margin-top: 17px
 }
-.autoPostion {
-  width: 50%;
-  float: left;
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
-.autoPostion-2 {
-  width: 75%;
+
+[class*="col-"] {
   float: left;
+  padding: 15px;
 }
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+h3 {
+  margin: 0;
+}
+
+.gray {
+  color: gray
+}
+</style>
+
 </style>
 </head>
 
@@ -57,7 +90,7 @@ margin-top: 17px
 
   <table width="100%">
     <tr>
-      <th ng-click="orderByMe('mashrut')">Mashrut</th>   
+      <th ng-click="orderByMe('mashrut')">Mashrut</th>
       <th ng-click="orderByMe('num')">Num</th>
       <th ng-click="orderByMe('outTime')">outTime</th>
       <th ng-click="orderByMe('inTime')">inTime</th>  
@@ -77,19 +110,23 @@ margin-top: 17px
     </tr>
   </table>
 
-<section class="autoPostion">
-  <h2>autoPostion</h2>
-  <div ng-init="num=['766','506','246', '232', '936', '005', '794', '407', '936', '009', '914 aylanib keladi', '494']">
-    <ul>
-      <li ng-repeat="x in num">
-      {{ x }}
-      </li>
-    </ul>
+<div class="row">
+  <div class="col-6">
+   <section class="autoPostion">
+   <h3>autoPostion</h3>
+   <div ng-init="num=['766','506','246','232', '936', '005', '794', '407', '009', '914 aylanib keladi', '494 R', '440','274', '010', '008', '505', '493']">
+     <ul>
+       <li ng-repeat="x in num">
+         {{ x }}
+       </li>
+     </ul>
+   </div>
+  </section>   
   </div>
-</section>
-
-<section class="autoPostion-2">
-  <h2>Tepaga ketadi mashrut: 82 lar bilan</h2>
+  
+  <div class="col-6">
+  <section class="autoPostion-2">
+  <b>Tepaga ketadi mashrut: 82 lar bilan</b>
   <div ng-init="num2=['933','877','920', '921', '406', '012']">
     <ul>
       <li ng-repeat="x in num2">
@@ -97,9 +134,17 @@ margin-top: 17px
       </li>
     </ul>
   </div>
-</section>
+  </section>
+  </div>
+</div>
 
 
+
+<div class="gray">
+<p>947 chap tarafdagi qizil avtobus oldiga.</p>
+<p>944 va 964 lar yonma-yon.</p>
+
+</div>
 
 
 </div>

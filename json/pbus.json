@@ -3,14 +3,16 @@
       {
         "mashrut": "60",
         "num": "380",
-        "workTime": "06:00",
+        "outTime": "06:00",
+        "inTime": "22:00",
         "name": "Alimov Ali"
       },
       {
         "mashrut": "60",
-        "num": "300",
-        "name": "Valimov Vaki",
-        "workTime": "07:00"
+        "num": "370",
+        "outTime": "08:00",
+        "inTime": "19:00",
+        "name": "Valimov Vali"
       }      
   ]
 }    

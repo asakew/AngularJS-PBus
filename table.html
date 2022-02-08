@@ -26,25 +26,42 @@ table tr:nth-child(even) {
 .center  {
   text-align: center
 }
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: bold
+}
 </style>
 </head>
 
 <body>
 <!-- AngularJS App Container -->
-<div ng-app="myApp" ng-controller="customersCtrl">
+<div ng-app="myApp" ng-controller="customersCtrl" ng-init="mySwitch=false">
 
-  <table border="1" width="100%">
+  <table width="100%">
     <tr>
       <th>~</th>
       <th ng-click="orderByMe('num')">Num, ID</th>
-      <th ng-click="orderByMe('time')">Soat</th>
-      <th ng-click="orderByMe('name')">Ism va Familiya</th> 
+      <th ng-click="orderByMe('outTime')">outTime</th>
+      <th ng-click="orderByMe('inTime')">inTime</th>      
+      <th ng-click="orderByMe('name')">Ism va Familiya</th>
+      <th>Status</th>
     </tr>
-    <tr ng-repeat="x in names | orderBy:myOrderBy">
-      <td class="center">{{ $index + 1 }}</td> 
-      <td>{{x.num}} - {{x.mashrut}}</td>
-      <td class="center">{{x.workTime}}</td>
-      <td>{{x.name}}</td>      
+    <tr ng-repeat="x in names | orderBy:myOrderBy" class="center">
+      <td>{{ $index + 1 }}</td> 
+      <td>
+        <button ng-disabled="mySwitch">
+         {{x.num}} - {{x.mashrut}}
+        </button>
+      </td>
+      <td>{{x.outTime}}</td>
+      <td>{{x.inTime}}</td>      
+      <td>{{x.name}}</td>   
+      <td><input type="checkbox" ng-model="mySwitch" />
+      </p></td>
     </tr>
   </table>
 

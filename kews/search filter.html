@@ -1,0 +1,52 @@
+<!--https://stackoverflow.com/questions/43545909/filtering-on-some-json-value-with-angularjs-filter-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <script src="../res/angular.min.js"></script>
+  <style>
+    h2 {
+      display: inline-block;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  
+
+<div ng-app="app" ng-controller="TestController as ctrl">
+  Search: <input type="text" ng-model="ctrl.searchTerm" />
+  <hr>
+  <div ng-repeat="i in ctrl.list | filter: {num: ctrl.searchTerm}  | orderBy:'time'">
+    <p><h2>{{i.num}}</h2> / {{i.time}} {{i.name}}</p>
+  </div>
+</div>  
+  
+  <script>
+    angular.module("app", [])
+    
+      .controller('TestController', function() {
+        this.list = [{
+          name: 'Alimov Ali',
+          num:  '204',
+          time: '06:70 - 22:00'
+        }, {
+          name: 'Valiyev Vali',
+          num:  '739',
+          time: '07:00 - 20:30'
+        }, {
+          name: 'Valiyev Vali 2',
+          num:  '366',
+          time: '05:10 - 20:10'     
+        }
+    
+        ];
+    
+      });
+  </script>
+</body>

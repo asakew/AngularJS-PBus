@@ -1,69 +1,6 @@
 {
   "pbus": [
       {
-        "mashrut": "82 Детский парк",
-        "outTime": "06:40",
-        "inTime": null,
-        "num": "922",
-        "name": "Алиев А."
-      },    
-      {
-        "mashrut": "82 Детский парк",
-        "outTime": "06:12",
-        "inTime": null,
-        "num": "907",
-        "name": "Алиев К."
-      },    
-      {
-        "mashrut": "82 Детский парк",
-        "outTime": "05:52",
-        "inTime": null,
-        "num": "875",
-        "name": "Мхитарян"
-      },    
-      {
-        "mashrut": "82 Варяг",
-        "outTime": "07:16",
-        "inTime": null,
-        "num": "910",
-        "name": "Ражабов"
-      },    
-      {
-        "mashrut": "82 Варяг",
-        "outTime": "06:52",
-        "inTime": null,
-        "num": "889",
-        "name": "Султанов"
-      },    
-      {
-        "mashrut": "82 Варяг",
-        "outTime": "06:40",
-        "inTime": null,
-        "num": "893",
-        "name": "Наимов И."
-      },    
-      {
-        "mashrut": "82 Варяг",
-        "outTime": "06:28",
-        "inTime": null,
-        "num": "925",
-        "name": "Гуломов Фируз"
-      },    
-      {
-        "mashrut": "82 Варяг",
-        "outTime": "06:04",
-        "inTime": null,
-        "num": "908",
-        "name": "Гуломов Фирдавс"
-      },    
-      {
-        "mashrut": "82 Варяг",
-        "outTime": "05:52",
-        "inTime": null,
-        "num": "932",
-        "name": "Джагацпанян"
-      },    
-      {
         "mashrut": "ТО 2",
         "outTime": "08:02",
         "inTime": "17:02",

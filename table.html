@@ -23,7 +23,7 @@
       <th ng-click="orderByMe('outTime')">outTime</th>
       <th ng-click="orderByMe('inTime')">inTime</th>  
       <th ng-click="orderByMe('name')">Ism va Familiya</th>
-      <th>Status</th>
+      <th></th>
     </tr>
     <tr ng-repeat="x in names | orderBy:myOrderBy" class="center">
       <td><button ng-disabled="mySwitch">{{x.mashrut}}</button></td>

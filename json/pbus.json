@@ -1,18 +1,95 @@
 {
   "pbus": [
       {
-        "mashrut": "60",
-        "num": "380",
-        "outTime": "06:00",
-        "inTime": "22:00",
-        "name": "Alimov Ali"
+        "mashrut": "60 Маяк",
+        "num": "939",
+        "outTime": "06:56",
+        "inTime": ".",
+        "name": "Аветисян"
+      },    
+      {
+        "mashrut": "60 Маяк",
+        "num": "914",
+        "outTime": "06:48",
+        "inTime": ".",
+        "name": "Ражабов"
+      },    
+      {
+        "mashrut": "60 Маяк",
+        "num": "964",
+        "outTime": "06:40",
+        "inTime": ".",
+        "name": "Досоев"
+      },    
+      {
+        "mashrut": "60 Маяк",
+        "num": "947",
+        "outTime": "06:28",
+        "inTime": ".",
+        "name": "Хамидов"
+      },    
+      {
+        "mashrut": "60 Маяк",
+        "num": "936",
+        "outTime": "06:12",
+        "inTime": ".",
+        "name": "Кислица"
+      },    
+      {
+        "mashrut": "60 Варяг",
+        "num": "940",
+        "outTime": "07:36",
+        "inTime": ".",
+        "name": "Рахимов"
+      },    
+      {
+        "mashrut": "60 Варяг",
+        "num": "924",
+        "outTime": "07:24",
+        "inTime": ".",
+        "name": "Кахаров"
+      },    
+      {
+        "mashrut": "60 Варяг",
+        "num": "790",
+        "outTime": "07:08",
+        "inTime": ".",
+        "name": "Михеда"
+      },    
+      {
+        "mashrut": "60 Варяг",
+        "num": "791",
+        "outTime": "06:56",
+        "inTime": ".",
+        "name": "Козырин"
+      },    
+      {
+        "mashrut": "60 Варяг",
+        "num": "920 *",
+        "outTime": "06:40",
+        "inTime": ".",
+        "name": "Азимов"
+      },    
+      {
+        "mashrut": "60 Варяг",
+        "num": "877 *",
+        "outTime": "06:28",
+        "inTime": ".",
+        "name": "Мирзоев"
+      },    
+      {
+        "mashrut": "60 Варяг",
+        "num": "506",
+        "outTime": "06:20",
+        "inTime": ".",
+        "name": "Никифоров"
       },
       {
-        "mashrut": "60",
-        "num": "370",
-        "outTime": "08:00",
-        "inTime": "19:00",
-        "name": "Valimov Vali"
+        "mashrut": "60 Варяг",
+        "num": "505",
+        "outTime": "06:11",
+        "inTime": ".",
+        "name": "Чепиль"
       }      
   ]
 }    

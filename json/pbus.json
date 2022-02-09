@@ -1,6 +1,111 @@
 {
   "pbus": [
       {
+        "mashrut": "76 Б.Тихая",
+        "outTime": "07:05",
+        "inTime": "",
+        "num": "909",
+        "name": "Назаров"
+      },    
+      {
+        "mashrut": "20 Давыдова",
+        "outTime": "06:40",
+        "inTime": "",
+        "num": "012",
+        "name": "Очилов"
+      },    
+      {
+        "mashrut": "79 Тихая",
+        "outTime": "07:50",
+        "inTime": "",
+        "num": "696",
+        "name": "Абдуллаев"
+      },    
+      {
+        "mashrut": "79 Тихая",
+        "outTime": "07:30",
+        "inTime": "",
+        "num": "008",
+        "name": "Турдибаев"
+      },    
+      {
+        "mashrut": "79 Тихая",
+        "outTime": "07:10",
+        "inTime": "",
+        "num": "010",
+        "name": "Мамадолиев"
+      },    
+      {
+        "mashrut": "79 Тихая",
+        "outTime": "06:50",
+        "inTime": "",
+        "num": "670",
+        "name": "Лунев"
+      },    
+      {
+        "mashrut": "79 Тихая",
+        "outTime": "06:30",
+        "inTime": "",        
+        "num": "005",
+        "name": "Саломов"
+      },    
+      {
+        "mashrut": "60 Маяк",
+        "num": "669",
+        "outTime": "07:23",
+        "inTime": "",
+        "name": "Шарипов"
+      },    
+      {
+        "mashrut": "19",
+        "num": "009",
+        "outTime": "07:30",
+        "inTime": "",
+        "name": "Дубиль"
+      },    
+      {
+        "mashrut": "62 Маяк",
+        "num": "440",
+        "outTime": "07:00",
+        "inTime": ".",
+        "name": "Старцев"
+      },    
+      {
+        "mashrut": "60 Трудовая",
+        "num": "007",
+        "outTime": "06:50",
+        "inTime": ".",
+        "name": "Маматов"
+      },    
+      {
+        "mashrut": "62 Трудовая",
+        "num": "442",
+        "outTime": "06:20",
+        "inTime": ".",
+        "name": "Холодков"
+      },    
+      {
+        "mashrut": "60 Маяк",
+        "num": "669",
+        "outTime": "07:23",
+        "inTime": ".",
+        "name": "Шарипов"
+      },    
+      {
+        "mashrut": "60 Маяк",
+        "num": "944",
+        "outTime": "07:24",
+        "inTime": ".",
+        "name": "Байсеркеев"
+      },    
+      {
+        "mashrut": "60 Маяк",
+        "num": "933",
+        "outTime": "07:08",
+        "inTime": ".",
+        "name": "Тангиркулов"
+      },    
+      {
         "mashrut": "60 Маяк",
         "num": "939",
         "outTime": "06:56",

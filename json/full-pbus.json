@@ -1,0 +1,452 @@
+{
+  "pbus": [
+      {
+        "mashrut": "82 Детский парк",
+        "outTime": "06:40",
+        "inTime": null,
+        "num": "922",
+        "name": "Алиев А."
+      },    
+      {
+        "mashrut": "82 Детский парк",
+        "outTime": "06:12",
+        "inTime": null,
+        "num": "907",
+        "name": "Алиев К."
+      },    
+      {
+        "mashrut": "82 Детский парк",
+        "outTime": "05:52",
+        "inTime": null,
+        "num": "875",
+        "name": "Мхитарян"
+      },    
+      {
+        "mashrut": "82 Варяг",
+        "outTime": "07:16",
+        "inTime": null,
+        "num": "910",
+        "name": "Ражабов"
+      },    
+      {
+        "mashrut": "82 Варяг",
+        "outTime": "06:52",
+        "inTime": null,
+        "num": "889",
+        "name": "Султанов"
+      },    
+      {
+        "mashrut": "82 Варяг",
+        "outTime": "06:40",
+        "inTime": null,
+        "num": "893",
+        "name": "Наимов И."
+      },    
+      {
+        "mashrut": "82 Варяг",
+        "outTime": "06:28",
+        "inTime": null,
+        "num": "925",
+        "name": "Гуломов Фируз"
+      },    
+      {
+        "mashrut": "82 Варяг",
+        "outTime": "06:04",
+        "inTime": null,
+        "num": "908",
+        "name": "Гуломов Фирдавс"
+      },    
+      {
+        "mashrut": "82 Варяг",
+        "outTime": "05:52",
+        "inTime": null,
+        "num": "932",
+        "name": "Джагацпанян"
+      },    
+      {
+        "mashrut": "ТО 2",
+        "outTime": "08:02",
+        "inTime": "17:02",
+        "num": "410",
+        "name": "Степик 278"
+      },    
+      {
+        "mashrut": "ТО 1",
+        "outTime": "08:01",
+        "inTime": "17:01",
+        "num": "561",
+        "name": "Беленков 6669"
+      },    
+      {
+        "mashrut": "ТО 1",
+        "outTime": "08:01",
+        "inTime": "17:01",
+        "num": "561",
+        "name": "Квач 1072"
+      },    
+      {
+        "mashrut": "Резерв 3",
+        "outTime": "06:30",
+        "inTime": "1630",
+        "num": "965",
+        "name": "Яравой 47"
+      },    
+      {
+        "mashrut": "Резерв 2",
+        "outTime": "06:00",
+        "inTime": "16:00",
+        "num": "794 *",
+        "name": "Пода 10000"
+      },    
+      {
+        "mashrut": "Резерв 1",
+        "outTime": "05:30",
+        "inTime": "15:30",
+        "num": "766 *",
+        "name": "Бабанов 1107"
+      },    
+      {
+        "mashrut": "526/1 1",
+        "outTime": "08:15",
+        "inTime": "19:35",
+        "num": "442",
+        "name": "Новиков 3028"
+      },    
+      {
+        "mashrut": "525/2 2",
+        "outTime": "16:10",
+        "inTime": "12:25",
+        "num": "015",
+        "name": "Скликон 6555"
+      },    
+      {
+        "mashrut": "525/2 1",
+        "outTime": "07:50",
+        "inTime": "20:50",
+        "num": "407 *",
+        "name": "Бурлак 1774"
+      },    
+      {
+        "mashrut": "521/1 1",
+        "outTime": "13:00",
+        "inTime": "14:40",
+        "num": "016",
+        "name": "Радченко 3006"
+      },    
+      {
+        "mashrut": "519/1 1",
+        "outTime": "05:30",
+        "inTime": "21:45",
+        "num": "014",
+        "name": "Мажоров 1764"
+      },    
+      {
+        "mashrut": "517/2 1",
+        "outTime": "09:25",
+        "inTime": "19:50",
+        "num": "274 *",
+        "name": "Полтавский 1730"
+      },    
+      {
+        "mashrut": "515/3 1",
+        "outTime": "06:10",
+        "inTime": "08:10",
+        "num": "494",
+        "name": "Загуменный 8019"
+      },    
+      {
+        "mashrut": "515/3 1",
+        "outTime": "06:10",
+        "inTime": "08:10",
+        "num": "494 *",
+        "name": "Сергиенко 1388"
+      },    
+      {
+        "mashrut": "514/1 2",
+        "outTime": "15:05",
+        "inTime": "14:55",
+        "num": "707",
+        "name": "Юрченко 1692"
+      },    
+      {
+        "mashrut": "514/1 1",
+        "outTime": "06:50",
+        "inTime": "20:25",
+        "num": "241",
+        "name": "Хдрян 1612"
+      },    
+      {
+        "mashrut": "506/1 12",
+        "outTime": "11:45",
+        "inTime": "23:55",
+        "num": "241",
+        "name": "Антонюк 1455"
+      },    
+      {
+        "mashrut": "506/1 10",
+        "outTime": "10:40",
+        "inTime": "23:00",
+        "num": "625",
+        "name": "Хаустов 8061"
+      },    
+      {
+        "mashrut": "506/2 8",
+        "outTime": "09:40",
+        "inTime": "22:05",
+        "num": "503",
+        "name": "Гладун 1770"
+      },    
+      {
+        "mashrut": "506/2 7",
+        "outTime": "09:10",
+        "inTime": "21:00",
+        "num": "493",
+        "name": "Беловол 1515"
+      },    
+      {
+        "mashrut": "506/1 5",
+        "outTime": "08:10",
+        "inTime": "20:51",
+        "num": "902",
+        "name": "Найденов 99"
+      },    
+      {
+        "mashrut": "506/1 4",
+        "outTime": "07:40",
+        "inTime": "19:45",
+        "num": "198",
+        "name": "Шило 1470"
+      },    
+      {
+        "mashrut": "506/1 2",
+        "outTime": "06:40",
+        "inTime": "18:45",
+        "num": "298",
+        "name": "Сергеев 7009"
+      },    
+      {
+        "mashrut": "504/2 1",
+        "outTime": "13:10",
+        "inTime": "21:35",
+        "num": "246 *",
+        "name": "Хорин 1451"
+      },    
+      {
+        "mashrut": "504/2 1",
+        "outTime": "06:30",
+        "inTime": "15:30",
+        "num": "219",
+        "name": "Чурилов 294"
+      },    
+      {
+        "mashrut":  "107/2 2",
+        "outTime":  "05:40",
+        "inTime":   "19:00",
+        "num":      "406",
+        "name":     "Соседов 20"
+      },    
+      {
+        "mashrut": "79 Тихая",
+        "outTime": "07:10",
+        "inTime": null,
+        "num": "010 *",
+        "name": "Мамадолиев"
+      },    
+      {
+        "mashrut": "76 Б.Тихая",
+        "outTime": "07:05",
+        "inTime": null,
+        "num": "909",
+        "name": "Назаров"
+      },    
+      {
+        "mashrut": "20 Давыдова",
+        "outTime": "06:40",
+        "inTime": null,
+        "num": "012",
+        "name": "Очилов"
+      },    
+      {
+        "mashrut": "79 Тихая",
+        "outTime": "07:50",
+        "inTime": null,
+        "num": "696",
+        "name": "Абдуллаев"
+      },    
+      {
+        "mashrut": "79 Тихая",
+        "outTime": "07:30",
+        "inTime": null,
+        "num": "008",
+        "name": "Турдибаев"
+      },    
+      {
+        "mashrut": "79 Тихая",
+        "outTime": "07:10",
+        "inTime": null,
+        "num": "010",
+        "name": "Мамадолиев"
+      },    
+      {
+        "mashrut": "79 Тихая",
+        "outTime": "06:50",
+        "inTime": null,
+        "num": "670",
+        "name": "Лунев"
+      },    
+      {
+        "mashrut": "79 Тихая",
+        "outTime": "06:30",
+        "inTime": null,        
+        "num": "005 *",
+        "name": "Саломов"
+      },    
+      {
+        "mashrut": "60 Маяк",
+        "num": "669",
+        "outTime": "07:23",
+        "inTime": null,
+        "name": "Шарипов"
+      },    
+      {
+        "mashrut": "19",
+        "num": "009 *",
+        "outTime": "07:30",
+        "inTime": null,
+        "name": "Дубиль"
+      },    
+      {
+        "mashrut": "62 Маяк",
+        "num": "440 *",
+        "outTime": "07:00",
+        "inTime": null,
+        "name": "Старцев"
+      },    
+      {
+        "mashrut": "60 Трудовая",
+        "num": "007",
+        "outTime": "06:50",
+        "inTime": null,
+        "name": "Маматов"
+      },    
+      {
+        "mashrut": "62 Трудовая",
+        "num": "442",
+        "outTime": "06:20",
+        "inTime": null,
+        "name": "Холодков"
+      },    
+      {
+        "mashrut": "60 Маяк",
+        "num": "669",
+        "outTime": "07:23",
+        "inTime": null,
+        "name": "Шарипов"
+      },    
+      {
+        "mashrut": "60 Маяк",
+        "num": "944",
+        "outTime": "07:24",
+        "inTime": null,
+        "name": "Байсеркеев"
+      },    
+      {
+        "mashrut": "60 Маяк",
+        "num": "933",
+        "outTime": "07:08",
+        "inTime": null,
+        "name": "Тангиркулов"
+      },    
+      {
+        "mashrut": "60 Маяк",
+        "num": "939",
+        "outTime": "06:56",
+        "inTime": null,
+        "name": "Аветисян"
+      },    
+      {
+        "mashrut": "60 Маяк",
+        "num": "914",
+        "outTime": "06:48",
+        "inTime": null,
+        "name": "Ражабов"
+      },    
+      {
+        "mashrut": "60 Маяк",
+        "num": "964",
+        "outTime": "06:40",
+        "inTime": null,
+        "name": "Досоев"
+      },    
+      {
+        "mashrut": "60 Маяк",
+        "num": "947",
+        "outTime": "06:28",
+        "inTime": null,
+        "name": "Хамидов"
+      },    
+      {
+        "mashrut": "60 Маяк",
+        "num": "936 *",
+        "outTime": "06:12",
+        "inTime": null,
+        "name": "Кислица"
+      },    
+      {
+        "mashrut": "60 Варяг",
+        "num": "940",
+        "outTime": "07:36",
+        "inTime": null,
+        "name": "Рахимов"
+      },    
+      {
+        "mashrut": "60 Варяг",
+        "num": "924",
+        "outTime": "07:24",
+        "inTime": null,
+        "name": "Кахаров"
+      },    
+      {
+        "mashrut": "60 Варяг",
+        "num": "790",
+        "outTime": "07:08",
+        "inTime": null,
+        "name": "Михеда"
+      },    
+      {
+        "mashrut": "60 Варяг",
+        "num": "791",
+        "outTime": "06:56",
+        "inTime": null,
+        "name": "Козырин"
+      },    
+      {
+        "mashrut": "60 Варяг",
+        "num": "920 *",
+        "outTime": "06:40",
+        "inTime": null,
+        "name": "Азимов"
+      },    
+      {
+        "mashrut": "60 Варяг",
+        "num": "877 *",
+        "outTime": "06:28",
+        "inTime": null,
+        "name": "Мирзоев"
+      },    
+      {
+        "mashrut": "60 Варяг",
+        "num": "506 *",
+        "outTime": "06:20",
+        "inTime": null,
+        "name": "Никифоров"
+      },
+      {
+        "mashrut": "60 Варяг",
+        "num": "505",
+        "outTime": "06:11",
+        "inTime": null,
+        "name": "Чепиль"
+      }      
+  ]
+}    

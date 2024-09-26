@@ -20,9 +20,9 @@
 <!-- AngularJS App Container -->
 <div ng-app="myApp" ng-controller="customersCtrl" ng-init="mySwitch=false" class="container">
 
-  <table class="table table-hover table-striped">
-    <tr>
-      <th ng-click="orderByMe('mashrut')">Mashrut</th>
+  <table class="table table-hover table-striped text-center">
+    <tr class="text-uppercase">
+      <th ng-click="orderByMe('mashrut')" class="h5">Mashrut</th>
       <th ng-click="orderByMe('num')">Num</th>
       <th ng-click="orderByMe('outTime')">outTime</th>
       <th ng-click="orderByMe('inTime')">inTime</th>
@@ -36,8 +36,7 @@
       <td><button ng-disabled="mySwitch">{{x.outTime}}</button></td>
       <td><button ng-disabled="mySwitch">{{x.inTime}}</button></td>      
       <td><button ng-disabled="mySwitch">{{x.name}}</button></td>   
-      <td><input type="checkbox" ng-model="mySwitch" id="mySwitch" />
-      </p></td>
+      <td><input type="checkbox" ng-model="mySwitch" id="mySwitch" /></td>
     </tr>
   </table>
 

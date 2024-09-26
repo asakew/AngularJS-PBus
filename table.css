@@ -14,7 +14,7 @@ table, th , td {
   color: black
 }
 
-table > th:hover {
+table > td:hover, td:hover {
   cursor: pointer;
 }
 
@@ -34,7 +34,6 @@ button {
   border: none;
   background-color: transparent;
   font-size: 16px;
-  font-weight: bold
 }
 input {
 margin-top: 17px

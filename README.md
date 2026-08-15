@@ -2,6 +2,9 @@
 
 Ushbu loyiha avtobuslar saroyidagi (parkovka) harakatni boshqarish va monitoring qilish uchun mo'ljallangan sodda ma'lumotlar bazasi tizimidir. Loyiha doirasida avtobuslarning yo'nalishlari, haydovchilar ma'lumotlari hamda parkovkaga kirish-chiqish vaqtlari hisobga olingan.
 
+## Demo Screenshot
+![localhost_63342_Bus-Parking-Manager_index.html.png](kews/localhost_63342_Bus-Parking-Manager_index.html.png)
+
 ## Ma'lumotlar Bazasi Jadvali (Database Table)
 
 Tizimning asosiy yadrosini quyidagi ustunlardan (fields) iborat jadval tashkil etadi:
